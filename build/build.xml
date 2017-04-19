@@ -17,7 +17,6 @@
 		<exec executable="${flexsdk.dir}/bin/compc${bin.ext}" failonerror="true">
 			<arg line='-source-path ../src'/>
 			<arg line='-output ../swc/Ash.swc'/>
-			<arg line='-target-player 11.5.0.0'/>
 			<arg line='-external-library-path+="${robotlegs.swc}"'/>
 			<arg line='-external-library-path+="${starling.swc}"'/>
 			<arg line='-include-classes ${classlist}'/>
@@ -39,7 +38,6 @@
 		<exec executable="${flexsdk.dir}/bin/asdoc${bin.ext}" failonerror="true">
 			<arg line='-templates-path ${asdoc.template}'/>
 			<arg line='-output ../docs/'/>
-			<arg line='-target-player 11.5.0.0'/>
 			<arg line='-library-path+="${robotlegs.swc}"'/>
 			<arg line='-library-path+="${starling.swc}"'/>
 			<arg line='-package-description-file packages.xml'/>
